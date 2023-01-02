@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <style>
+        p#p1 
+        {
+            position: relative;
+            top: 40px;
+            left: 30px;
+        }
+    </style>
+    <title>WiFi连接</title>
+</head>
+<body bgcolor="#F8FAF9">
+    <center>
+        <form name='input' action='/' method='POST' stylt="margin-left: 30px">
+            <input type='text' placeholder="  WiFi名称" name='ssid' style="margin-top: 70px; height: 30px; width: 280px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px "><br>
+            <input type='text' placeholder="  WiFi密码" name='password' style="margin-top: 10px; height: 30px; width: 280px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px "><br>
+            <input type='submit' value='连接' style="margin-top: 10px;height:45px;width:280px;color: #FFFFFF;background-color: #0094ff;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;border-width:0px">
+        </form>
+        <form name='input' action='/clean' method='POST' stylt="margin-left: 30px">
+            <input type='submit' value='清除所有数据' style="margin-top: 10px;height:45px;width:280px;color: #FFFFFF;background-color: #ff0000;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;border-width:0px">
+        </form>
+    </center>
+</body>
+</html>
